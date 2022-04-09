@@ -99,7 +99,7 @@ export default function Home() {
           </p>
           <p className="font-semibold text-white opacity-80">
             When I'm not programming, I'm either watching sports or playing
-            them! I like to play a variety of sports but basketball is the one I
+            them. I like to play a variety of sports but basketball is the one I
             enjoy the most. Other than sports, I also enjoy hiking and watching
             lots of movies. You can find some of my favorite films{" "}
             <a
