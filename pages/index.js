@@ -66,10 +66,10 @@ export default function Home() {
             </a>
           </div>
           <h1 className="text-3xl font-bold text-white sm:text-4xl md:text-6xl">
-            Hello👋, I'm Clem.
+            Hello👋, I&apos;m Clem.
           </h1>
           <p className="font-semibold text-white opacity-80">
-            I'm a 20 year old student enrolled{" "}
+            I&apos;m a 20 year old student enrolled{" "}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -90,7 +90,7 @@ export default function Home() {
             About Me 🔍
           </h2>
           <p className="font-semibold text-white opacity-80">
-            I'm interested in building fullstack web applications, with
+            I&apos;m interested in building fullstack web applications, with
             experience in multiple languages and frameworks. I started
             programming in Python and have since gained experiences in a variety
             of other languages like JavaScript, C++, HTML/CSS, and more! I enjoy
@@ -98,10 +98,10 @@ export default function Home() {
             experience in building scalable backend solutions.
           </p>
           <p className="font-semibold text-white opacity-80">
-            When I'm not programming, I'm either watching sports or playing
-            them. I like to play a variety of sports but basketball is the one I
-            enjoy the most. Other than sports, I also enjoy hiking and watching
-            lots of movies. You can find some of my favorite films{" "}
+            When I&apos;m not programming, I&apos;m either watching sports or
+            playing them. I like to play a variety of sports but basketball is
+            the one I enjoy the most. Other than sports, I also enjoy hiking and
+            watching lots of movies. You can find some of my favorite films{" "}
             <a
               target={"_blank"}
               rel={"noopener noreferrer"}
