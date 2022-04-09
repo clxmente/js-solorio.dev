@@ -146,7 +146,7 @@ export default function Home() {
               description={
                 "Designed a university database and user interface using MySQL, PHP, HTML, and CSS."
               }
-              url={"/"}
+              url={"#"}
               icons={[
                 <GrMysql key={"1"} size={"24"} color={"white"} />,
                 <DiPhp key={"2"} size={"24"} color={"white"} />,
