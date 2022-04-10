@@ -98,9 +98,9 @@ export default function Home() {
             experience in building scalable backend solutions.
           </p>
           <p className="font-semibold text-white opacity-80">
-            When I&apos;m not programming, I&apos;m either watching sports or
-            playing them. I like to play a variety of sports but basketball is
-            the one I enjoy the most. Other than sports, I also enjoy hiking and
+            When I&apos;m not programming, I like to watch or play a variety of
+            sports, but basketball is the one I enjoy the most and have been
+            playing the longest. Other than sports, I also enjoy hiking and
             watching lots of movies. You can find some of my favorite films{" "}
             <a
               target={"_blank"}
