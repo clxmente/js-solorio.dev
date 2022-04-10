@@ -66,7 +66,7 @@ export default function Home() {
             </a>
           </div>
           <h1 className="text-3xl font-bold text-white sm:text-4xl md:text-6xl">
-            Hello👋, I&apos;m Clem.
+            Hello, I&apos;m Clemente.
           </h1>
           <p className="font-semibold text-white opacity-80">
             I&apos;m a 20 year old student enrolled{" "}
