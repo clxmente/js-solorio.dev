@@ -14,6 +14,7 @@ import {
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { DiPhp, DiHtml5, DiCss3 } from "react-icons/di";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -164,7 +165,7 @@ export default function Home() {
                 <SiMongodb key={"1"} size={"24"} color={"white"} />,
                 <SiFastapi key={"2"} size={"24"} color={"white"} />,
                 <SiNginx key={"3"} size={"24"} color={"white"} />,
-                <FaPython key={"3"} size={"24"} color={"white"} />,
+                <FaPython key={"4"} size={"24"} color={"white"} />,
               ]}
             />
             <Project
