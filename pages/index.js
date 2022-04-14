@@ -177,7 +177,7 @@ export default function Home() {
               url={"https://github.com/clxmente/solorio.dev"}
               icons={[
                 <SiNextdotjs key={"1"} size={"24"} color={"white"} />,
-                <SiTailwindcss key={"3"} size={"24"} color={"white"} />,
+                <SiTailwindcss key={"2"} size={"24"} color={"white"} />,
               ]}
             />
           </div>

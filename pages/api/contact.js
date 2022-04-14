@@ -24,6 +24,8 @@ export default function handler(req, res) {
     return;
   }
 
+  console.log(req.body);
+
   const transporter = nodemailer.createTransport({
     port: 465,
     host: "smtp.gmail.com",

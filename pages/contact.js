@@ -47,7 +47,7 @@ function Contact() {
       },
     });
 
-    const data = await response.json().message;
+    const data = await response.json();
     console.log(data);
 
     // clear the fields
