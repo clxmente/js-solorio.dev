@@ -14,7 +14,6 @@ import {
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { DiPhp, DiHtml5, DiCss3 } from "react-icons/di";
-import Script from "next/script";
 
 export default function Home() {
   return (
