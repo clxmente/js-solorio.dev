@@ -1,7 +1,10 @@
-const nodemailer = require("nodemailer");
 const validator = require("email-validator");
 
-export default function handler(req, res) {
+import sendgrid from "@sendgrid/mail";
+
+sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
+
+export default async function handler(req, res) {
   if (req.method !== "POST") {
     res.status(405).json({ message: "Send as a POST request." });
     return;
@@ -23,34 +26,19 @@ export default function handler(req, res) {
       .json({ message: "Invalid email entered. Please enter a valid email" });
     return;
   }
-
   console.log(req.body);
 
-  const transporter = nodemailer.createTransport({
-    port: 465,
-    host: "smtp.gmail.com",
-    auth: {
-      user: "nodemailer.clem@gmail.com",
-      pass: process.env.EMAIL_PASSWORD,
-    },
-    secure: true,
-  });
-
-  const MessageToSend = {
-    from: req.body.email,
-    to: "clxmente.s@gmail.com",
-    subject: `CONTACT MSG: ${req.body.email}`,
-    text: req.body.message + `\nEmail From: ${req.body.email}`,
-    html: `<p>${req.body.message}</p><p>From Email: ${req.body.email}</p>`,
-  };
-
-  transporter.sendMail(MessageToSend, function (err, info) {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log(info);
-    }
-  });
+  try {
+    await sendgrid.send({
+      to: "clxmente.s@gmail.com",
+      from: "contact@solorio.dev",
+      subject: `message from ${req.body.email}`,
+      html: `<p>${req.body.message}</p><p>Reply to: ${req.body.email}</p>`,
+    });
+  } catch (error) {
+    console.log(error);
+    return res.status(error.statusCode || 500).json({ error: error.message });
+  }
 
   res.status(200).json({ message: "Sent email successfully" });
 }
