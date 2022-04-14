@@ -40,7 +40,7 @@ export default function handler(req, res) {
     from: req.body.email,
     to: "clxmente.s@gmail.com",
     subject: `CONTACT MSG: ${req.body.email}`,
-    text: req.body.message + `\nFrom Email: ${req.body.email}`,
+    text: req.body.message + `\nEmail From: ${req.body.email}`,
     html: `<p>${req.body.message}</p><p>From Email: ${req.body.email}</p>`,
   };
 
