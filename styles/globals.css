@@ -20,4 +20,20 @@ body {
   .base-textarea {
     @apply w-full resize-none break-words rounded-md bg-gray-800 px-3 py-2 text-white placeholder:text-sm placeholder:italic placeholder:text-gray-400;
   }
+
+  .active-nav {
+    @apply inline-flex items-center border-b-2 border-sky-500 px-1 pt-1 text-sm font-bold text-white;
+  }
+
+  .inactive-nav {
+    @apply inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-bold text-gray-400 hover:border-gray-300 hover:text-gray-500;
+  }
+
+  .active-nav-m {
+    @apply mx-3 block rounded-md bg-gray-900 py-2 pl-3 pr-4 text-base font-medium text-white;
+  }
+
+  .inactive-nav-m {
+    @apply mx-3 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white;
+  }
 }

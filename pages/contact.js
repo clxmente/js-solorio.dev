@@ -1,8 +1,9 @@
 import Head from "next/head";
+import NavBar from "../components/NavBar";
+import ContactLink from "../components/ContactLink";
 import { MailIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import { FaDiscord, FaInstagram, FaTwitter } from "react-icons/fa";
-import ContactLink from "../components/ContactLink";
 
 function Contact() {
   const [email, setEmail] = useState("");
@@ -60,7 +61,10 @@ function Contact() {
         <title>Clemente Solorio: Contact</title>
         <link rel="icon" href="https://github.com/clxmente.png" />
       </Head>
-      <main className="mx-auto max-w-3xl space-y-6 md:py-24">
+
+      <NavBar active={"contact"} />
+
+      <main className="mx-auto max-w-3xl space-y-6 py-12">
         <h1 className="text-3xl font-bold text-white sm:text-4xl md:text-6xl">
           Contact
         </h1>

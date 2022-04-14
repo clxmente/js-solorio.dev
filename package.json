@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@bradgarropy/next-google-analytics": "^1.0.2",
+    "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.6",
     "email-validator": "^2.0.4",
     "next": "12.1.4",

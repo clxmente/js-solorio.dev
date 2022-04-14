@@ -14,6 +14,7 @@ import {
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { DiPhp, DiHtml5, DiCss3 } from "react-icons/di";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
   return (
@@ -24,7 +25,8 @@ export default function Home() {
         <link rel="icon" href="https://github.com/clxmente.png" />
       </Head>
 
-      <main className="mx-auto max-w-3xl space-y-12 md:py-24">
+      <NavBar active={"home"} />
+      <main className="mx-auto max-w-3xl space-y-12 py-12">
         {/* Title/Intro Section */}
         <div className="space-y-4">
           <div className="flex space-x-5">
