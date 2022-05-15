@@ -170,9 +170,21 @@ export default function Home() {
               ]}
             />
             <Project
+              title={"🥩 Tender \u2197"}
+              description={
+                "Swipe left or right to find new foods and restaurants to try!"
+              }
+              url={"https://tender.vercel.app"}
+              icons={[
+                <SiNextdotjs key={"1"} size={"24"} color={"white"} />,
+                <FaNodeJs key={"2"} size={"24"} color={"white"} />,
+                <SiTailwindcss key={"2"} size={"24"} color={"white"} />,
+              ]}
+            />
+            <Project
               title={"🏛️ solorio.dev \u2197"}
               description={
-                "Personal website built with next.js and tailwindcss."
+                "Personal website, deployed on Vercel, and built with next.js and tailwindcss"
               }
               url={"https://github.com/clxmente/solorio.dev"}
               icons={[
