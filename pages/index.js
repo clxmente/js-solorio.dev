@@ -80,7 +80,7 @@ export default function Home() {
             >
               @CSUF
             </a>
-            . I am currently in my 3rd year of unviersity, completing my
+            . I am currently in my 3rd year of university, completing my
             Bachelors of Science in Computer Science.
           </p>
         </div>
