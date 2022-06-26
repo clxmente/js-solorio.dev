@@ -100,10 +100,12 @@ export default function Home() {
             experience in building scalable backend solutions.
           </p>
           <p className="font-semibold text-white opacity-80">
-            When I&apos;m not programming, I like to watch or play a variety of
-            sports, but basketball is the one I enjoy the most and have been
-            playing the longest. Other than sports, I also enjoy hiking and
-            watching lots of movies. You can find some of my favorite films{" "}
+            Other than programming, I like to watch or play a variety of sports.
+            I&apos;ve played basketball since I was a kid, and have played all
+            kinds of sports with friends. In general, I love being outdoors
+            whether it&apos;s on a hike or playing sports, but I also watch a
+            lot of movies when I&apos;m relaxing. You can find some of my
+            favorite films{" "}
             <a
               target={"_blank"}
               rel={"noopener noreferrer"}
