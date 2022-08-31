@@ -11,6 +11,8 @@ import {
   SiGithub,
   SiTwitter,
   SiLinkedin,
+  SiTypescript,
+  SiPrisma,
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { DiPhp, DiHtml5, DiCss3 } from "react-icons/di";
@@ -134,9 +136,24 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
             <Project
+              title={"🌟 stardew.app \u2197"}
+              description={
+                "Next generation, user-oriented Stardew Valley perfection tracker. Built with Next.js, Tailwind CSS, and MySQL."
+              }
+              url={"https://stardew.app/"}
+              icons={[
+                <SiNextdotjs key={"1"} size={"24"} color={"white"} />,
+                <FaNodeJs key={"2"} size={"24"} color={"white"} />,
+                <SiTypescript key={"3"} size={"24"} color={"white"} />,
+                <SiTailwindcss key={"4"} size={"24"} color={"white"} />,
+                <GrMysql key={"5"} size={"24"} color={"white"} />,
+                <SiPrisma key={"6"} size={"24"} color={"white"} />,
+              ]}
+            />
+            <Project
               title={"🎮 NBA Players Game \u2197"}
               description={
-                "Fun web-app to see how many NBA Players a user can guess within a time limit. Built with next.js, tailwindcss, and Supabase."
+                "Fun web-app to see how many NBA Players a user can guess within a time limit. Built with Next.js, Tailwind CSS, and Supabase."
               }
               url={"https://nba-game.solorio.dev/"}
               icons={[
@@ -149,7 +166,7 @@ export default function Home() {
             <Project
               title={"🔒 Python Password Manager \u2197"}
               description={
-                "command-line password manager that stores AES encrypted passwords protected by a SHA256 hashed master password."
+                "command-line password manager that stores AES encrypted passwords."
               }
               url={"https://github.com/clxmente/Python-Password-Manager"}
               icons={[<FaPython key={"1"} size={"24"} color={"white"} />]}
@@ -195,7 +212,7 @@ export default function Home() {
             <Project
               title={"🏛️ solorio.dev \u2197"}
               description={
-                "Personal website, deployed on Vercel, and built with next.js and tailwindcss"
+                "Personal website, deployed on Vercel, and built with next.js and Tailwind CSS"
               }
               url={"https://github.com/clxmente/solorio.dev"}
               icons={[
