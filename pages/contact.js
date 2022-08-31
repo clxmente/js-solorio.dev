@@ -72,8 +72,8 @@ function Contact() {
           You can reach out to me via email by filling out the form below, or
           through any of my social medias linked here.
         </p>
-        <div className="justify-between space-y-6 md:flex">
-          <div className="grid grid-cols-1 gap-3">
+        <div className="justify-between space-y-6 md:flex md:space-y-0">
+          <div className="grid grid-cols-1 gap-y-8">
             <ContactLink
               url={"mailto:clem@solorio.dev"}
               text={"clem@solorio.dev"}
