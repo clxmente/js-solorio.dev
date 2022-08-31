@@ -98,7 +98,7 @@ export default function Home() {
             experience in multiple languages and frameworks. I started
             programming in Python and have since gained experiences in a variety
             of other languages like Javascript and Typescript, C++, HTML/CSS,
-            and more! I'm currently building{" "}
+            and more! I&apos;m currently building{" "}
             <a
               href="https://stardew.app"
               target="_blank"
