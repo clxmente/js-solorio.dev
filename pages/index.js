@@ -76,7 +76,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.fullerton.edu/"
-              className="text-sky-500 hover:text-sky-300"
+              className="text-sky-500 hover:text-sky-300 hover:underline"
             >
               @CSUF
             </a>
@@ -95,22 +95,31 @@ export default function Home() {
             I&apos;m interested in building fullstack web applications, with
             experience in multiple languages and frameworks. I started
             programming in Python and have since gained experiences in a variety
-            of other languages like JavaScript, C++, HTML/CSS, and more! I enjoy
-            designing the frontend of web applications and am gaining more
-            experience in building scalable backend solutions.
+            of other languages like Javascript and Typescript, C++, HTML/CSS,
+            and more! I'm currently building{" "}
+            <a
+              href="https://stardew.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sky-500 hover:text-sky-300 hover:underline"
+            >
+              stardew.app
+            </a>
+            , a web application for Stardew Valley players that allows them to
+            track their progress towards 100% completion.
           </p>
           <p className="font-semibold text-white opacity-80">
             Other than programming, I like to watch or play a variety of sports.
             I&apos;ve played basketball since I was a kid, and have played all
-            kinds of sports with friends. In general, I love being outdoors
-            whether it&apos;s on a hike or playing sports, but I also watch a
-            lot of movies when I&apos;m relaxing. You can find some of my
-            favorite films{" "}
+            kinds of sports recreationally with friends. In general, I love
+            being outdoors whether it&apos;s on a hike or playing sports, but I
+            also watch a lot of movies when I&apos;m relaxing. You can find some
+            of my favorite films{" "}
             <a
               target={"_blank"}
               rel={"noopener noreferrer"}
               href={"https://letterboxd.com/clxm/"}
-              className="text-sky-500 hover:text-sky-300"
+              className="text-sky-500 hover:text-sky-300 hover:underline"
             >
               here!
             </a>
