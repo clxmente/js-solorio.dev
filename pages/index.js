@@ -100,7 +100,7 @@ export default function Home() {
             of other languages like Javascript and Typescript, C++, HTML/CSS,
             and more! I&apos;m currently building{" "}
             <a
-              href="https://stardew.app"
+              href="https://stardew.app/?utm_campaign=ClemSite&utm_source=Website&utm_medium=Link"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sky-500 hover:text-sky-300 hover:underline"
@@ -140,7 +140,7 @@ export default function Home() {
               description={
                 "Next generation, user-oriented Stardew Valley perfection tracker. Built with Next.js, Tailwind CSS, and MySQL."
               }
-              url={"https://stardew.app/"}
+              url={"https://stardew.app/?utm_campaign=ClemSite&utm_source=Website&utm_medium=Link"}
               icons={[
                 <SiNextdotjs key={"1"} size={"24"} color={"white"} />,
                 <FaNodeJs key={"2"} size={"24"} color={"white"} />,
